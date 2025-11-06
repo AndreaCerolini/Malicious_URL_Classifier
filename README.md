@@ -1,30 +1,27 @@
 # Malicious URL Classifier
 
-This repository contains all the resources for training and evaluating a machine learning model that classifies URLs into categories such as **benign**, **defacement**, **malware**, and **phishing**.
-
----
+This repository includes all the files used to train and test a machine learning model that classifies URLs into four categories: **benign**, **defacement**, **malware**, and **phishing**.
 
 ## Repository Structure
 
 - **`history_of_the_classifier.ipynb`**  
-  A Jupyter notebook showing the full evolution of the classifier — from early prototypes to the final model — with detailed comments explaining each step.
+  A Jupyter notebook that shows the full development of the classifier, from the first version to the final one with comments that explain every step.
 
 - **`Malicious_URL_Classifier.py`**  
-  The main training script. It loads the preprocessed dataset, trains the model, applies early stopping, and saves the best-performing model checkpoint.
+  The main script that runs the training process.  
+  It loads the preprocessed data, trains the model, uses early stopping, and saves the best model at the end.
 
 - **`models/best_model_embed.pth`**  
-  The best model produced during training, stored as a PyTorch checkpoint.  
-  It contains:
+  The best model saved during training.  
+  This file contains:
   - `epoch`
   - `model_state`
   - `optimizer_state`
   - `val_loss`
 
----
-
 ## Requirements
 
-To install all dependencies, simply run:
+To install all the required libraries, run:
 
 ```bash
 pip install -r requirements.txt
