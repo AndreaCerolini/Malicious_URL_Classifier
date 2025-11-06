@@ -1,4 +1,4 @@
-# 🧠 Malicious URL Classifier
+# Malicious URL Classifier
 
 This repository contains all the resources for training and evaluating a machine learning model that classifies URLs into categories such as **benign**, **defacement**, **malware**, and **phishing**.
 
