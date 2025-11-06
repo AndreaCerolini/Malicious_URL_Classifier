@@ -7,7 +7,7 @@ This repository includes all the files used to train and test a machine learning
 - **`Malicious URL v3.csv`**
   The original dataset
 
--**`preprocessing_embedding.py`**
+- **`preprocessing_embedding.py`**
   The script that preprocesses the dataset, producing the data used during the training and the testing, contained in the directory preprocess_data/
   
 - **`history_of_the_classifier.ipynb`**  
