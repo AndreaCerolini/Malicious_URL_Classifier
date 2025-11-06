@@ -4,6 +4,12 @@ This repository includes all the files used to train and test a machine learning
 
 ## Repository Structure
 
+- **`Malicious URL v3.csv`**
+  The original dataset
+
+-**`preprocessing_embedding.py`**
+  The script that preprocesses the dataset, producing the data used during the training and the testing, contained in the directory preprocess_data/
+  
 - **`history_of_the_classifier.ipynb`**  
   A Jupyter notebook that shows the full development of the classifier, from the first version to the final one with comments that explain every step.
 
